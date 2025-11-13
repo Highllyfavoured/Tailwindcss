@@ -3,22 +3,22 @@ import { Link } from "react-router-dom";
 
 const Exercise3 = () => {
   return (
-    <div className="p-4">
+    <div className="p-4 max-w-120 mx-auto">
       <div className="max-w-120 mx-auto p-6">
         <h1 className="text-2xl font-bold text-center bg-amber-500 p-4 m-2 rounded-2xl">
           Stats Dashboard
         </h1>
-        <div className="grid grid-cols-2 w-full gap-2 h-64">
-          <div className="bg-red-600 text-center font-bold text-50 rounded-lg hover:scale-110 hover:bg-red-700 ">
+        <div className="grid grid-cols-2 w-full gap-4 h-64">
+          <div className="p-5 bg-red-600 text-center font-bold text-50 rounded-lg hover:scale-110 hover:bg-red-700 ">
             <h2>Total Sales:</h2> ₦2.5M (+12% ↑)
           </div>
-          <div className=" text-center  bg-orange-600 font-bold rounded-lg hover:scale-110 hover:bg-orange-700">
+          <div className="p-5 text-center  bg-orange-600 font-bold rounded-lg hover:scale-110 hover:bg-orange-700">
             Orders: 1,234 (+8% ↑)
           </div>
-          <div className=" text-center  bg-amber-600 font-bold rounded-lg hover:scale-110 hover:bg-amber-700">
+          <div className="p-5 text-center  bg-amber-600 font-bold rounded-lg hover:scale-110 hover:bg-amber-700">
             Customers: 567 (+23% ↑)
           </div>
-          <div className=" text-center bg-yellow-600 font-bold rounded-lg hover:scale-110 hover:bg-yellow-700">
+          <div className="p-5 text-center bg-yellow-600 font-bold rounded-lg hover:scale-110 hover:bg-yellow-700">
             Revenue: ₦4.2M (+15% ↑)
           </div>
         </div>
